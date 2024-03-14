@@ -4,27 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a516cd3c-2534-4821-a49f-11842c257f52" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TravelUP/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TravelUP/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TravelUP/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TravelUP/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TravelUP/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TravelUP/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TravelUP/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TravelUP/src/main/java/org/greencoding/TravelUP/TravelUpApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TravelUP/src/main/java/org/greencoding/TravelUP/controllers/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TravelUP/src/main/java/org/greencoding/TravelUP/models/AbstractEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TravelUP/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TravelUP/src/main/resources/templates/addreview.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TravelUP/src/main/resources/templates/createaccount.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TravelUP/src/main/resources/templates/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TravelUP/src/main/resources/templates/locations.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TravelUP/src/main/resources/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TravelUP/src/main/resources/templates/reviews.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TravelUP/src/test/java/org/greencoding/TravelUP/TravelUpApplicationTests.java" beforeDir="false" />
+    <list default="true" id="a516cd3c-2534-4821-a49f-11842c257f52" name="Changes" comment="starting ping pong game">
+      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/pong/Ball.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/pong/GameFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/pong/GamePanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/pong/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/pong/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/pong/Paddle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/pong/PongGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/pong/Score.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/pong/hello-view.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,25 +34,87 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;anamindful&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="9b8782fc-e83f-4de7-a362-b15dc806723c" />
+        <option name="url" value="https://github.com/JayWhiteBuffalo/green-coding.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2dYXGzwP7iYKXp3d21EyJzMcZsR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/.gradle" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="pong [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.pong [bootRun]" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,6 +124,19 @@
       <option name="presentableId" value="Default" />
       <updated>1710185893371</updated>
     </task>
+    <task id="LOCAL-00001" summary="starting ping pong game">
+      <option name="closed" value="true" />
+      <created>1710186305603</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710186305603</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="starting ping pong game" />
+    <option name="LAST_COMMIT_MESSAGE" value="starting ping pong game" />
   </component>
 </project>
