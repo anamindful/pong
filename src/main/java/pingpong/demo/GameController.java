@@ -9,5 +9,10 @@ public class GameController {
     public String index() {
         return "index"; // Return the name of the HTML template (e.g., index.html)
     }
+
+    @GetMapping("/game")
+    public String game(){
+        return "game";
+    }
 }
 

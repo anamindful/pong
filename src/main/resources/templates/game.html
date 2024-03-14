@@ -16,16 +16,12 @@
             height: 100vh;
         }
 
-        .container {
-            text-align: center;
-        }
-
-        h1 {
-            font-size: 48px;
-            margin-bottom: 30px;
+        canvas {
+            border: 2px solid #333;
         }
 
         button {
+            margin-top: 20px;
             padding: 10px 20px;
             font-size: 20px;
             background-color: #007bff;
@@ -43,16 +39,10 @@
 </head>
 <body>
 
-<div class="container">
-    <h1>Let's Play Ping-Pong!</h1>
-    <button onclick="startGame()">Start Game</button>
-</div>
+<canvas id="gameCanvas" width="800" height="600"></canvas>
+<button onclick="restartGame()">Restart Game</button>
 
-<script>
-    function startGame() {
-        window.location.href = "/game";
-    }
-</script>
+<script src="game.js"></script>
 
 </body>
 </html>
