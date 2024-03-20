@@ -140,6 +140,15 @@ function render() {
 function gameLoop() {
     update();
     render();
+
+    // Check if either player has reached 10 points
+    if (player1.score === 10 || player2.score === 10) {
+        // Display the winner
+        let winner = player1.score === 10 ? "Player 1" : "Player 2";
+        alert(winner + " wins!");
+        return; // Stop the game loop
+    }
+
     requestAnimationFrame(gameLoop);
 }
 
