@@ -117,11 +117,13 @@ function resetBall() {
 // Function to render graphics
 function render() {
     // Clear the canvas
-    ctx.clearRect(0, 0, WIDTH, HEIGHT);
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
 
     // Draw paddles
-    ctx.fillStyle = '#000';
+    ctx.fillStyle = 'blue'; // Set color to red for player 1 paddle
     ctx.fillRect(player1.x, player1.y, PADDLE_WIDTH, PADDLE_HEIGHT);
+
+    ctx.fillStyle = 'red'; // Set color to blue for player 2 paddle
     ctx.fillRect(player2.x, player2.y, PADDLE_WIDTH, PADDLE_HEIGHT);
 
     // Draw ball
@@ -133,7 +135,7 @@ function render() {
     // Display scores
     ctx.font = '20px Arial';
     ctx.fillText('Player 1: ' + player1.score, 20, 30);
-    ctx.fillText('Player 2: ' + player2.score, WIDTH - 140, 30);
+    ctx.fillText('Player 2: ' + player2.score, canvas.width - 140, 30);
 }
 
 // Game loop
@@ -154,3 +156,5 @@ function gameLoop() {
 
 // Start the game loop
 gameLoop();
+
+
