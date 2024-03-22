@@ -120,16 +120,16 @@ function render() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
     // Draw paddles
-    ctx.fillStyle = 'blue'; // Set color to red for player 1 paddle
+    ctx.fillStyle = 'blue';
     ctx.fillRect(player1.x, player1.y, PADDLE_WIDTH, PADDLE_HEIGHT);
 
-    ctx.fillStyle = 'red'; // Set color to blue for player 2 paddle
+    ctx.fillStyle = 'red';
     ctx.fillRect(player2.x, player2.y, PADDLE_WIDTH, PADDLE_HEIGHT);
 
     // Draw ball
     ctx.beginPath();
     ctx.arc(ball.x, ball.y, BALL_RADIUS, 0, Math.PI * 2);
-    ctx.fillStyle = '#000';
+    ctx.fillStyle = 'purple';
     ctx.fill();
 
     // Display scores
