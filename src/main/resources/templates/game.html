@@ -40,7 +40,17 @@
 <body>
 
 <canvas id="gameCanvas" width="800" height="600"></canvas>
-<!--<button onclick="restartGame()">Restart Game</button>-->
+<div class="container">
+    <button onclick="homePage()">Home</button>
+</div>
+
+<script>
+    function homePage() {
+        window.location.href = "/index";
+    }
+</script>
+
+<!--<a href="/index.html"><button>Home</button></a>-->
 
 <script src="game.js"></script>
 
