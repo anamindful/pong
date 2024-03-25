@@ -17,7 +17,10 @@
         }
 
         canvas {
-            border: 8px solid #333;
+            border: 1px solid #333;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
         }
 
         button {
@@ -26,10 +29,13 @@
             font-size: 20px;
             background-color: #007bff;
             color: white;
-            border: none;
+            border: 10px;
             border-radius: 5px;
             cursor: pointer;
             transition: background-color 0.3s;
+            position: absolute;
+            bottom: 0;
+            right: 40%;
         }
 
         button:hover {
@@ -46,11 +52,9 @@
 
 <script>
     function homePage() {
-        window.location.href = "/index";
+        window.location.href = "/";
     }
 </script>
-
-<!--<a href="/index.html"><button>Home</button></a>-->
 
 <script src="game.js"></script>
 
