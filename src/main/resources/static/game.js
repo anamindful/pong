@@ -34,16 +34,16 @@ let ball = {
 // Event listeners for player input
 document.addEventListener('keydown', (event) => {
     switch (event.key) {
-        case 'ArrowUp':
+        case 'w':
             player1.dy = -PADDLE_SPEED;
             break;
-        case 'ArrowDown':
+        case 's':
             player1.dy = PADDLE_SPEED;
             break;
-        case 'w':
+        case 'ArrowUp':
             player2.dy = -PADDLE_SPEED;
             break;
-        case 's':
+        case 'ArrowDown':
             player2.dy = PADDLE_SPEED;
             break;
     }
@@ -51,12 +51,12 @@ document.addEventListener('keydown', (event) => {
 
 document.addEventListener('keyup', (event) => {
     switch (event.key) {
-        case 'ArrowUp':
-        case 'ArrowDown':
-            player1.dy = 0;
-            break;
         case 'w':
         case 's':
+            player1.dy = 0;
+            break;
+        case 'ArrowUp':
+        case 'ArrowDown':
             player2.dy = 0;
             break;
     }
@@ -129,7 +129,7 @@ function render() {
     // Draw ball
     ctx.beginPath();
     ctx.arc(ball.x, ball.y, BALL_RADIUS, 0, Math.PI * 2);
-    ctx.fillStyle = 'purple';
+    ctx.fillStyle = '#000';
     ctx.fill();
 
     // Display scores
